@@ -1,5 +1,5 @@
 # The-Huxley
- **Questões feitas no The Huxley e seus níveis**
+ **Questões feitas no The Huxley e seus níveis.**
 
  *Questões feitas com o objetivo de desenvolver a lógica de programação!*
 
