@@ -7,11 +7,11 @@
 
 import math
 
-x, y = float(input()), float(input())
+x, z = float(input()), float(input())
 
-theta = math.atan(x/y)
+theta = math.atan(x/z)
 
-r = math.hypot(x, y)
+r = math.hypot(x, z)
 
 print(r)
 print(theta)
