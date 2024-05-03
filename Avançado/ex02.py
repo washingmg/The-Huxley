@@ -5,10 +5,10 @@
 # NÍVEL DE ACORDO COM O THE HUXLEY: AVANÇADO
 
 
-def cobertoAgua(N, alturas):
+def cobertoAgua(n, alturas):
     max_altura_esquerda, agua_coberta = alturas[0], 0
 
-    for i in range(1, N):
+    for i in range(1, n):
         max_altura_esquerda = max(max_altura_esquerda, alturas[i])
         if min(max_altura_esquerda, max(alturas[i+1:])) > alturas[i]:
             agua_coberta += 1
@@ -16,7 +16,7 @@ def cobertoAgua(N, alturas):
     return agua_coberta
 
 
-N = int(input())
-alturas = [int(input()) for _ in range(N)]
+n = int(input())
+alturas = [int(input()) for _ in range(n)]
 
-print(cobertoAgua(N, alturas))
+print(cobertoAgua(n, alturas))
