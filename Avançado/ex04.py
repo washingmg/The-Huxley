@@ -20,4 +20,4 @@ celulares.sort()
 if dinheiro >= celulares[0][1]:
     print("Comprarei o celular", celulares[0][3])
 else:
-    print("O meu celular nem esta tao ruim assim")
+    print('O meu celular nem esta tao ruim assim')
