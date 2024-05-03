@@ -1,7 +1,7 @@
 
 
-# QUESTÃO 1057
-# "Teorema de Pitágoras"
+# QUESTÃO 3569
+# "3o ângulo do triângulo"
 # NÍVEL DE ACORDO COM O THE HUXLEY: INICIANTE
 
 
